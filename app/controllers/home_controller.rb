@@ -1,5 +1,5 @@
-class Controller < ApplicationController
+class HomeController < ApplicationController
   def top
-  	@name = 'Ninomiya'
+    @book = Book.new
   end
 end
